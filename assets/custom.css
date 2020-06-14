@@ -1,0 +1,58 @@
+body{
+  background-color: #313131;
+
+}
+
+.darkest-grey{
+  background-color: #313131;
+}
+
+.dark-grey{
+  background-color: #414141;
+  border: 3px solid #b6eb7a;
+  border-radius: 15px;
+}
+
+.light-grey{
+  background-color: #525252;
+  border-radius: 15px;
+}
+
+*{
+  margin:0
+}
+.main-container{
+  display: flex;
+  justify-content: space-around;
+  width:100vw;
+  height:100vh;
+}
+
+.main-left{
+  height: 90%;
+  width:25%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+
+
+.main-right{
+  height: 90%;
+  width:70%;
+  margin-top: 20px;
+  overflow-y: scroll;
+  padding: 15px;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+
+.div{
+  width: 50vw;
+}
